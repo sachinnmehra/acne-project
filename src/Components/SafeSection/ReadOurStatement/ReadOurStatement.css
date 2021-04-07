@@ -1,0 +1,32 @@
+.page-title-section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: white;
+  color: black;
+}
+.container {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.container.contact {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+}
+
+.page-title {
+  margin-top: 10px;
+}
+
+.style-menu-wrapper {
+  margin-bottom: 10px;
+}
+
+.style-heading {
+  margin-top: 0px;
+}

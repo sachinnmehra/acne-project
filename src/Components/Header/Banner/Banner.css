@@ -1,0 +1,32 @@
+.Banner {
+  margin: 0;
+  padding: 0;
+  background-color: #222222;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 75px;
+}
+.container1 {
+  margin-top: 10px;
+}
+.Banner p {
+  color: white;
+  display: inline-block;
+  margin-left: 5px;
+  color: #f9f9f9;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.Banner button {
+  background-color: #eb5757;
+  color: white;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+  height: 35px;
+}

@@ -1,0 +1,60 @@
+.shop-local-section {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.shop-local-wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 500px;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.shop-local-left {
+  position: absolute;
+  left: 0%;
+  top: 6%;
+  right: auto;
+  bottom: 0%;
+  width: 30%;
+  height: 0px;
+  min-height: 440px;
+  border-radius: 5px;
+  background-image: url("https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83fe3910db4fde2e69f396_christiann-koepke-dQyS2pMYtok-unsplash%20(1).jpg");
+  background-position: 69% 80%;
+  background-size: 270%;
+}
+
+.shop-local-right {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  padding: 45px;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  border-radius: 5px;
+  background-color: #222;
+  color: #f9f9f9;
+}
+
+.shop-local-content-wrapper {
+  width: 80%;
+  padding-right: 145px;
+  padding-left: 145px;
+}
+
+.shop-local-heading {
+  margin-top: 0px;
+  font-size: 45px;
+  line-height: 1.2;
+}

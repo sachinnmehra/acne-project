@@ -1,0 +1,46 @@
+.MainPage {
+  min-height: 550px;
+  background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#222),
+      to(rgba(34, 34, 34, 0))
+    ),
+    url("https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83f98bae1ad80129fcd7e5_wu-jianxiong-UniC8xhlzaE-unsplash.jpg");
+  background-image: linear-gradient(360deg, #222, rgba(34, 34, 34, 0)),
+    url("https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83f98bae1ad80129fcd7e5_wu-jianxiong-UniC8xhlzaE-unsplash.jpg");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+
+  color: white;
+  box-sizing: border-box;
+}
+
+.MainPage h1 {
+  width: 22%;
+  color: #f9f9f9;
+  font-size: 60px;
+  line-height: 1.2;
+  font-weight: 700;
+  display: inline-block;
+  margin-top: 8%;
+  margin-right: 55%;
+}
+
+.MainPage p {
+  width: 25%;
+  margin-bottom: 25px;
+  color: #f9f9f9;
+  font-size: 18px;
+  margin-left: 11%;
+}
+
+.MainPage button {
+  background-color: transparent;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: 1px solid white;
+  margin-right: 65%;
+}

@@ -1,0 +1,92 @@
+.contact-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.contact-left {
+  width: 30%;
+}
+
+.contact-right {
+  width: 70%;
+  padding-left: 20px;
+}
+
+.contact-hero-section {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #222;
+  color: #f9f9f9;
+}
+
+.contact-hero-bg-wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.contact-image-div {
+  width: 45%;
+  height: 550px;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(#222),
+      color-stop(76%, rgba(34, 34, 34, 0.18))
+    ),
+    url("https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e84f1e1f02ef1408ff221cc_vinicius-amano-4mK2KVuYrDs-unsplash%20(1)%20(1).jpg");
+  background-image: linear-gradient(90deg, #222, rgba(34, 34, 34, 0.18) 76%),
+    url("https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e84f1e1f02ef1408ff221cc_vinicius-amano-4mK2KVuYrDs-unsplash%20(1)%20(1).jpg");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.contact-block-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  min-height: 350px;
+  margin-top: 25px;
+  margin-right: 20px;
+  padding: 40px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #222;
+  text-align: center;
+}
+
+.contact-icon {
+  margin-bottom: 30px;
+}
